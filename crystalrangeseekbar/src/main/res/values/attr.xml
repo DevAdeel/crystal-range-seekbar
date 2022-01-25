@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Common attributes -->
-    <attr name="corner_radius" format="float" />
+    <attr name="sb_corner_radius" format="float" />
     <attr name="min_value" format="float" />
     <attr name="max_value" format="float" />
     <attr name="min_start_value" format="float" />
@@ -42,7 +42,7 @@
 
     <!-- Seekbar -->
     <declare-styleable name="CrystalSeekbar" >
-        <attr name="corner_radius" />
+        <attr name="sb_corner_radius" />
         <attr name="min_value" />
         <attr name="max_value" />
         <attr name="min_start_value" />
@@ -71,7 +71,7 @@
 
     <!-- Range Seekbar -->
     <declare-styleable name="CrystalRangeSeekbar" >
-        <attr name="corner_radius" />
+        <attr name="sb_corner_radius" />
         <attr name="min_value" />
         <attr name="max_value" />
         <attr name="min_start_value" />

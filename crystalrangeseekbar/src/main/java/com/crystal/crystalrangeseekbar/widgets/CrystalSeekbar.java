@@ -517,7 +517,7 @@ public class CrystalSeekbar extends View {
     }
 
     protected float getCornerRadius(final TypedArray typedArray) {
-        return typedArray.getFloat(R.styleable.CrystalSeekbar_corner_radius, 0f);
+        return typedArray.getFloat(R.styleable.CrystalSeekbar_sb_corner_radius, 0f);
     }
 
     protected float getMinValue(final TypedArray typedArray) {
